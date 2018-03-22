@@ -10,7 +10,7 @@ In order to generate the tidy data set output for this project, execute the R
 script named run_analysis. Note that it requires the reshape2 package, which 
 can be downloaded from CRAN.
 
-The output of the R script is a tidy data set named tidy.csv.
+The output of the R script is a tidy data set named tidy.txt.
 
 Additional details on the data, variables, and steps taken to create the 
 tidy data set are available in the Code Book.

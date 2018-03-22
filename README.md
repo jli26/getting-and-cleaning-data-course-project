@@ -12,4 +12,5 @@ can be downloaded from CRAN.
 
 The output of the R script is a tidy data set named tidy.csv.
 
-Additional details on the data set are available in the code book.
+Additional details on the data, variables, and steps taken to create the 
+tidy data set are available in the Code Book.

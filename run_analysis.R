@@ -62,4 +62,4 @@ melted <- melt(merged2, id = c("subjectid","activity"))
 
 # Create a tidy data frame with the average of each variable for each subjectid-activity pair
 tidy <- dcast(melted, subjectid + activity ~ variable, mean)
-write.csv(tidy, "tidy.csv", row.names = FALSE)
+write.table(tidy, "tidy.txt", row.names = FALSE)
